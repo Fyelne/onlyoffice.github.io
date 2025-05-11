@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload content from the specified path
-          path: './sdkjs-plugins/content/autocomplete'
+          path: './store'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
